@@ -32,12 +32,12 @@ var seaFloorFrontObjectArray = new Array();
 var seaFloorBackObjectArray = new Array();
 
 var about1ContainerDiv = document.getElementById("plants-container");
-
-var plantLine1Div = document.getElementById("plant-line-1");
-var plantLine2Div = document.getElementById("plant-line-2");
+//花朵高度
+var plantLine4Div = document.getElementById("plant-line-4");
+// var plantLine2Div = document.getElementById("plant-line-2");
 var plantArray = new Array();
 var plantTargetTopObjectArray = new Array();
-plantTargetTopObjectArray.push(plantLine1Div, plantLine1Div, plantLine2Div, plantLine2Div);
+plantTargetTopObjectArray.push(plantLine4Div, plantLine4Div, plantLine4Div, plantLine4Div);
 var canAnimatePlantInformation;
 
 var about2ContainerDiv = document.getElementById("buildings-container");
@@ -138,7 +138,7 @@ var canAnimateFishInformation;
 var isFishStillAnimating = false;
 var fishAnimateNumber = 0;
 var numberOfFishInEachRowArray = new Array();
-numberOfFishInEachRowArray.push(5, 5, 4, 4);
+numberOfFishInEachRowArray.push(1, 1, 1, 0);
 
 var skill2ContainerDiv = document.getElementById("skill-2-container");
 var crabArray = new Array();
@@ -147,7 +147,7 @@ var canAnimateCrabInformation;
 var isCrabStillAnimating = false;
 var crabAnimateNumber = 0;
 var numberOfCrabInEachRowArray = new Array();
-numberOfCrabInEachRowArray.push(5, 5, 4, 3);
+numberOfCrabInEachRowArray.push(1, 1, 1, 1);
 
 var skill3ContainerDiv = document.getElementById("skill-3-container");
 var turtleArray = new Array();
@@ -156,7 +156,7 @@ var canAnimateTurtleInformation;
 var isTurtleStillAnimating = false;
 var turtleAnimateNumber = 0;
 var numberOfTurtleInEachRowArray = new Array();
-numberOfTurtleInEachRowArray.push(3, 2, 2, 2);
+numberOfTurtleInEachRowArray.push(1, 0, 0, 0);
 
 var pageVerticalPosition = 0;
 var pageVerticalPositionOnTouch = 0;
