@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		83057D101A6CAF630089AED9 /* interactive_resume in Resources */ = {isa = PBXBuildFile; fileRef = 83057D0F1A6CAF630089AED9 /* interactive_resume */; };
 		8336A9EF1A6CA7F8007465D5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8336A9EE1A6CA7F8007465D5 /* main.m */; };
 		8336A9F21A6CA7F8007465D5 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8336A9F11A6CA7F8007465D5 /* AppDelegate.m */; };
 		8336A9F51A6CA7F8007465D5 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8336A9F41A6CA7F8007465D5 /* ViewController.m */; };
@@ -27,6 +28,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		83057D0F1A6CAF630089AED9 /* interactive_resume */ = {isa = PBXFileReference; lastKnownFileType = folder; path = interactive_resume; sourceTree = "<group>"; };
 		8336A9E91A6CA7F8007465D5 /* Introduce.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Introduce.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8336A9ED1A6CA7F8007465D5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8336A9EE1A6CA7F8007465D5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -81,6 +83,7 @@
 		8336A9EB1A6CA7F8007465D5 /* Introduce */ = {
 			isa = PBXGroup;
 			children = (
+				83057D0F1A6CAF630089AED9 /* interactive_resume */,
 				8336A9F01A6CA7F8007465D5 /* AppDelegate.h */,
 				8336A9F11A6CA7F8007465D5 /* AppDelegate.m */,
 				8336A9F31A6CA7F8007465D5 /* ViewController.h */,
@@ -168,6 +171,7 @@
 				TargetAttributes = {
 					8336A9E81A6CA7F7007465D5 = {
 						CreatedOnToolsVersion = 6.1;
+						DevelopmentTeam = 3943ARX7RN;
 					};
 					8336AA011A6CA7F8007465D5 = {
 						CreatedOnToolsVersion = 6.1;
@@ -199,6 +203,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				83057D101A6CAF630089AED9 /* interactive_resume in Resources */,
 				8336A9F81A6CA7F8007465D5 /* Main.storyboard in Resources */,
 				8336A9FD1A6CA7F8007465D5 /* LaunchScreen.xib in Resources */,
 				8336A9FA1A6CA7F8007465D5 /* Images.xcassets in Resources */,
@@ -280,7 +285,8 @@
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Developer: 福成 赵 (GY97ER3355)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: 福成 赵 (GY97ER3355)";
 				COPY_PHASE_STRIP = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
@@ -297,9 +303,10 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE = "baf439b8-eaf9-4aa6-b390-ef377c8930c0";
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = 2;
 			};
@@ -322,7 +329,8 @@
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Developer: 福成 赵 (GY97ER3355)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: 福成 赵 (GY97ER3355)";
 				COPY_PHASE_STRIP = YES;
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
@@ -333,8 +341,9 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
+				PROVISIONING_PROFILE = "0b3a8865-2efe-4d0d-b9e1-a4306a96c472";
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = 2;
 				VALIDATE_PRODUCT = YES;
@@ -345,9 +354,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer: 福成 赵 (GY97ER3355)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: 福成 赵 (GY97ER3355)";
 				INFOPLIST_FILE = Introduce/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "baf439b8-eaf9-4aa6-b390-ef377c8930c0";
 			};
 			name = Debug;
 		};
@@ -355,9 +368,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer: 福成 赵 (GY97ER3355)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: 福成 赵 (GY97ER3355)";
 				INFOPLIST_FILE = Introduce/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "0b3a8865-2efe-4d0d-b9e1-a4306a96c472";
 			};
 			name = Release;
 		};
@@ -414,6 +431,7 @@
 				8336AA0E1A6CA7F8007465D5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		8336AA0F1A6CA7F8007465D5 /* Build configuration list for PBXNativeTarget "IntroduceTests" */ = {
 			isa = XCConfigurationList;
@@ -422,6 +440,7 @@
 				8336AA111A6CA7F8007465D5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
